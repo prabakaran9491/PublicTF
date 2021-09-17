@@ -7,4 +7,3 @@ resource "aws_subnet" "Public_subnet" {
     Name = format("${var.public_subnet}-%d", count.index + 1)
   }
 }
-
