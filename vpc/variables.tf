@@ -1,6 +1,5 @@
 variable "cidr_block_vpc" {
   type = string
-  default = "10.5.0.0/16"
   sensitive = true
   
 }
