@@ -1,4 +1,4 @@
-variable "count" {
+variable "pub_subnet_count" {
   type = number
 }
 variable "vpc_id" {
