@@ -4,7 +4,7 @@ variable "pub_subnet_count" {
 variable "vpc_id" {
   type = string
 }
-variable "cidr_block_publicsubnet" {
+variable "pub_subnet_cidr" {
   type = list(string)
 }
 variable "map_public_ip_on_launch" {
